@@ -19,7 +19,7 @@
     "Matthew Davies <daviesgeek@users.noreply.github.com>",
     "Denis Dervisevic <dervisevic@textalk.se>"
   ],
-  "main": "dist/angular-spectrum-colorpicker.min.js",
+  "main": "dist/angular-spectrum-colorpicker.js",
   "keywords": [
     "directive",
     "angular",
