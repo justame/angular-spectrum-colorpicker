@@ -15,7 +15,7 @@
     "Denis Dervisevic <dervisevic@textalk.se>"
   ],
   "description": "Angular directive for a colorpicker, that bases on the spectrum colorpicker",
-  "main": "dist/angular-spectrum-colorpicker.min.js",
+  "main": "dist/angular-spectrum-colorpicker.js",
   "keywords": [
     "directive",
     "colorpicker",
