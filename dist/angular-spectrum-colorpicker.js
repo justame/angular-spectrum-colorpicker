@@ -35,7 +35,7 @@
   
           onBeforeShow: '&?',
         },
-        replace: true,
+        replace: false,
         templateUrl: 'directive.html',
         link: function($scope, $element, attrs, $ngModel) {
   
