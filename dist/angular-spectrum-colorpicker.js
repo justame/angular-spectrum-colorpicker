@@ -17,7 +17,7 @@
   // src/js/spectrumColorpicker.directive.js
   (function(undefined) {
     'use strict';
-    angularSpectrumColorpicker.directive('spectrumColorpicker', function() {
+    angularSpectrumColorpicker.directive('spectrumColorpicker', function($timeout) {
       return {
         restrict: 'E',
         require: 'ngModel',
@@ -69,7 +69,7 @@
           }
   
           var onChange = function(color) {
-            $scope.$apply(function() {
+            $timeout(function() {
               setViewValue(color);
             });
           };
